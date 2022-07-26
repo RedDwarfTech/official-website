@@ -17,7 +17,7 @@ jobs:
       - name: Build Vue App
         run: |
           npm install 
-          npm run build
+          npm run build 
 
       - name: Build image push to aliyun
         uses: docker/build-push-action@v1
